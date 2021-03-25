@@ -1,11 +1,16 @@
-a {
-	color: black;
-	text-align: center;
+#head1 {
+	color: black;	
 }
-h1 {
-	color: black;
-	text-align: center;
-	font-family: "Courier New"
+#icon {
+	height: 90px;
+	width: 90px;
+	border-collapse:collapse;
+	padding:0;
+	display:block;
+}
+title{
+	display: block;
+	
 	
 }
 p{
@@ -16,4 +21,9 @@ p{
 }
 html {
   scroll-behavior: smooth;
+}
+body {
+  background-image: url('images/background.jpg');
+  font-family: 'IBM Plex Serif', serif;
+
 }
